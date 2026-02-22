@@ -1,0 +1,171 @@
+{
+  "screenshots": [
+    {
+      "id": 1,
+      "filename": "landing_page.png",
+      "title": "Halaman Utama ExcelPintar",
+      "html_file": "index.html",
+      "description": "Halaman landing page yang menampilkan hero section dengan sambutan, overview fitur utama, dan call-to-action untuk memulai pembelajaran",
+      "key_elements": [
+        "Logo ExcelPintar",
+        "Hero Section dengan judul 'Belajar Excel Dengan Mudah'",
+        "Navigasi menu utama",
+        "Feature overview cards",
+        "Call-to-action buttons (Mulai Belajar, Daftar, Login)",
+        "Footer dengan social links"
+      ],
+      "viewport": "1280x800",
+      "format": "PNG",
+      "notes": "Ambil saat halaman fully loaded, pastikan scroll ke tengah page"
+    },
+    {
+      "id": 2,
+      "filename": "kompetensi_dasar.png",
+      "title": "Halaman Kompetensi Dasar",
+      "html_file": "kd.html",
+      "description": "Menampilkan Kompetensi Dasar (KD 3.4 & 4.4), Indikator Pencapaian Kompetensi (IPK), dan Tujuan Pembelajaran",
+      "key_elements": [
+        "Judul halaman 'Kompetensi Dasar'",
+        "Daftar KD dengan nomor",
+        "Indikator Pencapaian Kompetensi (IPK) terstruktur",
+        "Tujuan Pembelajaran bulleted list",
+        "Deskripsi singkat materi",
+        "Navigasi ke halaman berikutnya"
+      ],
+      "viewport": "1280x800",
+      "format": "PNG",
+      "notes": "Highlight area KD & IPK, gunakan screenshot penuh halaman jika ada scroll"
+    },
+    {
+      "id": 3,
+      "filename": "materi_main.png",
+      "title": "Halaman Materi Pembelajaran",
+      "html_file": "materi.html",
+      "description": "Menampilkan daftar modul pembelajaran dengan topik-topik Excel (Pengenalan, Memulai, Format, Rumus, dll)",
+      "key_elements": [
+        "Judul 'Modul Pembelajaran'",
+        "Card/Box untuk setiap topik materi",
+        "Icon atau gambar untuk setiap topik",
+        "Deskripsi singkat per topik",
+        "Navigation links ke detail materi",
+        "Progress indicator (jika ada)"
+      ],
+      "viewport": "1280x800",
+      "format": "PNG",
+      "notes": "Tampilkan semua modul utama, scroll jika perlu untuk menampilkan layout lengkap"
+    },
+    {
+      "id": 4,
+      "filename": "materi_video.png",
+      "title": "Halaman Video Pembelajaran",
+      "html_file": "video.html",
+      "description": "Menampilkan koleksi video tutorial untuk setiap topik pembelajaran",
+      "key_elements": [
+        "Video player terintegrasi",
+        "Daftar playlist video",
+        "Judul dan deskripsi video",
+        "Duration/waktu durasi",
+        "Play button dan video controls",
+        "Related content atau suggestion"
+      ],
+      "viewport": "1280x800",
+      "format": "PNG",
+      "notes": "Jika ada video yang loading, tunggu hingga fully loaded sebelum screenshot"
+    },
+    {
+      "id": 5,
+      "filename": "latihan_soal.png",
+      "title": "Halaman Latihan Soal",
+      "html_file": "latsoal.html",
+      "description": "Bagian praktek dengan soal-soal interaktif untuk mengasah kemampuan siswa",
+      "key_elements": [
+        "Judul 'Latihan Soal' atau 'Practice'",
+        "List soal/pertanyaan",
+        "Multiple choice atau short answer format",
+        "Difficulty level indicator",
+        "Score/point system",
+        "Submit/Check answer button",
+        "Feedback section"
+      ],
+      "viewport": "1280x800",
+      "format": "PNG",
+      "notes": "Ambil saat soal belum dijawab, tampilkan layout clean tanpa popup"
+    },
+    {
+      "id": 6,
+      "filename": "quiz.png",
+      "title": "Halaman Kuis Interaktif",
+      "html_file": "quiz.html",
+      "description": "Quiz evaluasi untuk mengukur pemahaman siswa dengan sistem scoring",
+      "key_elements": [
+        "Judul 'Kuis' atau 'Assessment'",
+        "Quiz question card",
+        "Multiple choice options dengan radio buttons/checkboxes",
+        "Progress bar (question X of Y)",
+        "Timer (jika ada)",
+        "Next/Submit button",
+        "Score display area"
+      ],
+      "viewport": "1280x800",
+      "format": "PNG",
+      "notes": "Tampilkan pertanyaan pertama quiz untuk preview, jangan tampilkan jawaban yang dipilih"
+    },
+    {
+      "id": 7,
+      "filename": "profil_pengembang.png",
+      "title": "Halaman Profil Pengembang",
+      "html_file": "profilpengembang.html",
+      "description": "Informasi tentang tim pengembang, pembimbing, dan ahli media pembelajaran",
+      "key_elements": [
+        "Judul 'Profil Pengembang' atau 'Tim Pengembang'",
+        "Foto/Avatar pengembang",
+        "Nama lengkap",
+        "Jabatan/posisi",
+        "Biodata singkat",
+        "Social media links (jika ada)",
+        "Tahun pengembangan",
+        "Institusi/Sekolah"
+      ],
+      "viewport": "1280x800",
+      "format": "PNG",
+      "notes": "Scroll untuk menampilkan semua anggota tim jika layout vertikal"
+    },
+    {
+      "id": 8,
+      "filename": "daftar_pustaka.png",
+      "title": "Halaman Daftar Pustaka",
+      "html_file": "daftarpustaka.html",
+      "description": "Referensi dan sumber belajar yang digunakan dalam penyusunan materi",
+      "key_elements": [
+        "Judul 'Daftar Pustaka' atau 'Bibliography'",
+        "Daftar referensi terstruktur",
+        "Pengarang/Author",
+        "Judul buku/artikel",
+        "Penerbit/Publisher",
+        "Tahun terbit",
+        "ISBN/URL (jika ada)",
+        "Kategori buku (Optional)"
+      ],
+      "viewport": "1280x800",
+      "format": "PNG",
+      "notes": "Jika list panjang, scroll untuk menampilkan multiple references dalam satu screenshot"
+    }
+  ],
+  "metadata": {
+    "total_screenshots": 8,
+    "project": "ExcelPintar - Media Pembelajaran Interaktif",
+    "created_date": "2024",
+    "last_updated": "February 2024",
+    "directory": "screenshots/",
+    "file_size_target": "150-300 KB per screenshot",
+    "resolution_standard": "1280x800px minimum"
+  },
+  "capture_settings": {
+    "browser": "Chrome/Firefox Latest",
+    "zoom_level": "100%",
+    "devtools_visible": false,
+    "viewport_mode": "Desktop (1280x800)",
+    "network_throttle": "None (Full Speed)",
+    "rendering_wait": "Fully Loaded + 1 second"
+  }
+}
