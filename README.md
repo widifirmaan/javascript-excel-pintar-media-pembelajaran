@@ -1,7 +1,5 @@
 # ExcelPintar - Media Pembelajaran Interaktif
 
-![ExcelPintar](screenshots/landing_page.png)
-
 ## 📚 Deskripsi Proyek
 
 **ExcelPintar** adalah aplikasi media pembelajaran berbasis web yang dirancang khusus untuk membantu siswa memahami dasar-dasar pengoperasian Microsoft Excel secara interaktif dan menyenangkan. Aplikasi ini mengintegrasikan materi pembelajaran, video tutorial, latihan soal, dan kuis evaluasi dalam satu platform terpadu.
