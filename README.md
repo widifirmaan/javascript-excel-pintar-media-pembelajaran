@@ -1,246 +1,130 @@
-# ExcelPintar - Media Pembelajaran Interaktif
+# 📊 ExcelPintar - Media Pembelajaran Interaktif
 
-## 📚 Deskripsi Proyek
+**ExcelPintar** is a state-of-the-art, web-based interactive learning media designed to help students master Microsoft Excel fundementals. It seamlessly integrates structured learning modules, video tutorials, practice exercises, and evaluation quizzes into a unified, user-friendly platform.
 
-**ExcelPintar** adalah aplikasi media pembelajaran berbasis web yang dirancang khusus untuk membantu siswa memahami dasar-dasar pengoperasian Microsoft Excel secara interaktif dan menyenangkan. Aplikasi ini mengintegrasikan materi pembelajaran, video tutorial, latihan soal, dan kuis evaluasi dalam satu platform terpadu.
-
-Dikembangkan untuk memenuhi kebutuhan pembelajaran digital di era modern, ExcelPintar menyediakan pengalaman belajar yang komprehensif dengan antarmuka yang user-friendly dan navigasi yang intuitif.
-
----
-
-## 🎯 Fitur Utama
-
-### 1. **Halaman Pendahuluan** 
-Halaman sambutan yang menjelaskan tujuan dan manfaat mempelajari Microsoft Excel.
-![Pendahuluan](screenshots/landing_page.png)
-
-### 2. **Kompetensi Dasar (KD)**
-Menampilkan:
-- **Standar Kompetensi**: KD 3.4 & 4.4
-- **Indikator Pencapaian Kompetensi** (IPK)
-- **Tujuan Pembelajaran** yang ingin dicapai
-- **Deskripsi materi** secara singkat
-
-![Kompetensi Dasar](screenshots/kompetensi_dasar.png)
-
-### 3. **Modul Materi Pembelajaran**
-Pembelajaran terstruktur mencakup:
-- 📖 **Pengenalan Excel** - Sejarah dan penggunaan Excel
-- 🚀 **Memulai Excel** - Cara membuka dan navigasi dasar
-- 📋 **Format Workbook** - Pemformatan cells dan worksheet
-- 📐 **Rumus dan Fungsi** - Penggunaan formula dan fungsi Excel
-- 🎨 **Format Lanjutan** - Tips pemformatan profesional
-
-![Materi Pembelajaran](screenshots/materi_main.png)
-
-### 4. **Video Tutorial**
-Konten video pembelajaran yang mendukung setiap topik materi untuk pemahaman yang lebih mendalam.
-
-![Video Pembelajaran](screenshots/materi_video.png)
-
-### 5. **Latihan Soal (Practice)**
-Bagian praktek yang terdiri dari:
-- Soal-soal interaktif berbasis topik
-- Feedback langsung untuk setiap jawaban
-- Latihan bertingkat dari mudah hingga sulit
-
-![Latihan Soal](screenshots/latihan_soal.png)
-
-### 6. **Kuis Evaluasi (Assessment)**
-Tes evaluasi untuk mengukur pemahaman siswa:
-- Soal pilihan ganda dan essay
-- Sistem scoring otomatis
-- Hasil evaluasi yang dapat diunduh
-
-![Quiz Interaktif](screenshots/quiz.png)
-
-### 7. **Profil Pengembang**
-Informasi lengkap mengenai:
-- Tim pengembang aplikasi
-- Pembimbing akademik
-- Ahli media pembelajaran
-- Tahun pengembangan
-
-![Profil Pengembang](screenshots/profil_pengembang.png)
-
-### 8. **Daftar Pustaka**
-Referensi dan sumber belajar yang digunakan dalam penyusunan materi pembelajaran.
-
-![Daftar Pustaka](screenshots/daftar_pustaka.png)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 📸 Application Showcase
 
-- **Frontend Framework**: HTML5, CSS3, JavaScript (Vanilla)
-- **CSS Framework**: Bootstrap 4.5
-- **Libraries**:
-  - jQuery - Manipulasi DOM
-  - Owl Carousel - Slider dan carousel
-  - Isotope - Filter dan sorting konten
-  - Animate.css - Animasi elemen
-  - Font Awesome - Icon set
-  - Google Fonts (Poppins) - Typography
+Explore the comprehensive features of **ExcelPintar** through our gallery.
 
-- **Backend**: PHP (untuk form dan admin panel)
-- **Database**: MySQL (untuk form submission)
-- **Build Tool**: Prepros (CSS preprocessing)
+| | |
+|:---:|:---:|
+| ![Landing Page](screenshots/landing_page.png)<br>**Landing Page** | ![Kompetensi Dasar](screenshots/kompetensi_dasar.png)<br>**Kompetensi Dasar** |
+| ![Materi Main](screenshots/materi_main.png)<br>**Materi Utama** | ![Video Tutorial](screenshots/materi_video.png)<br>**Video Tutorial** |
+| ![Latihan Soal](screenshots/latihan_soal.png)<br>**Latihan Soal** | ![Quiz Interaktif](screenshots/quiz.png)<br>**Quiz Interaktif** |
+| ![Profil Pengembang](screenshots/profil_pengembang.png)<br>**Profil Pengembang** | ![Daftar Pustaka](screenshots/daftar_pustaka.png)<br>**Daftar Pustaka** |
 
 ---
 
-## 📂 Struktur Direktori
+## 🚀 Features Overview
 
-```
-javascript-excel-pintar-media-pembelajaran/
-├── index.html                          # Halaman utama
-├── kd.html                            # Kompetensi Dasar
-├── pendahuluan.html                   # Halaman Pendahuluan
-├── materi.html                        # Modul Materi
-├── video.html                         # Video Pembelajaran
-├── latsoal.html                       # Latihan Soal
-├── quiz.html                          # Kuis Evaluasi
-├── profilpengembang.html              # Profil Pengembang
-├── daftarpustaka.html                 # Daftar Pustaka
-├── rumus.html                         # Referensi Rumus
-├── format.html                        # Guide Format
-│
-├── assets/                            # Aset statis
-│   ├── css/
-│   │   ├── templatemo-onix-digital.css
-│   │   ├── animated.css
-│   │   ├── fontawesome.css
-│   │   └── owl.css
-│   ├── js/
-│   │   ├── custom.js                 # Script custom
-│   │   ├── animation.js               # Script animasi
-│   │   ├── owl-carousel.js
-│   │   ├── isotope.js
-│   │   ├── tabs.js
-│   │   └── imagesloaded.js
-│   ├── fonts/                         # Font files
-│   └── images/                        # Gambar dan aset visual
-│
-├── form/                              # Backend form handling
-│   ├── index.php
-│   ├── process.php
-│   ├── error.php
-│   ├── global/                        # Config dan library
-│   ├── admin/                         # Admin panel
-│   └── vendor/                        # PHP dependencies
-│
-├── screenshots/                       # Screenshot dokumentasi
-│   ├── landing_page.png
-│   ├── kompetensi_dasar.png
-│   ├── materi_main.png
-│   ├── materi_video.png
-│   ├── latihan_soal.png
-│   ├── quiz.png
-│   ├── profil_pengembang.png
-│   └── daftar_pustaka.png
-│
-├── vendor/                            # Dependencies (Bootstrap, jQuery, dll)
-│   ├── bootstrap/
-│   └── jquery/
-│
-├── daftarpustaka/                     # Konten daftar pustaka
-├── profil/                            # Data profil pengembang
-├── m/                                 # Media dan konten
-├── rev1/                              # Revisi sebelumnya
-└── README.md                          # Dokumentasi proyek
-```
+### 📖 Structured Learning
+*   **Modular Content**: Covers everything from basic Excel history to advanced formula functions.
+*   **Visual Learning**: Integrated video tutorials for every major topic.
+*   **Competency Based**: Aligned with official educational standards (KD 3.4 & 4.4).
+
+### ✍️ Interactive Practice
+*   **Real-time Feedback**: Get instant results on practice questions.
+*   **Adaptive Learning**: Progressive difficulty levels from basic to advanced.
+*   **Excel Simulation**: Guidance on workbook formatting and function implementation.
+
+### 🧪 Assessment & Evaluation
+*   **Smart Quiz**: Automated scoring for multiple-choice and essay questions.
+*   **Results Tracking**: Downloadable evaluation summaries for performance review.
+*   **Interactive UI**: Smooth animations and intuitive navigation for better engagement.
 
 ---
 
-## 🚀 Cara Menggunakan
+## 🛠️ Tech Stack
 
-### Requirement
-- Browser modern (Chrome, Firefox, Edge, Safari) terbaru
-- Koneksi internet untuk konten video (jika ada)
-- RAM minimal 512MB
+### Core Technologies
+*   **Structure**: HTML5 (Semantic Elements)
+*   **Styling**: CSS3, Bootstrap 4.5, Animate.css
+*   **Logic**: JavaScript (Vanilla), jQuery
+*   **Backend**: PHP (Form Handling)
+*   **Database**: MySQL
 
-### Instalasi & Menjalankan
+### Libraries & Assets
+*   **Typography**: Google Fonts (Poppins)
+*   **Icons**: Font Awesome
+*   **Components**: Owl Carousel (Sliders), Isotope (Filtering)
+*   **Build Tool**: Prepros
 
-#### 1. **Offline (Rekomendasi)**
+---
+
+## 📂 Project Structure
+
 ```bash
-# Clone repository
-git clone https://github.com/[username]/javascript-excel-pintar-media-pembelajaran.git
+/
+├── assets/                 # Global styles, scripts, and fonts
+├── form/                   # PHP Backend and Database logic
+├── screenshots/            # Documentation images
+├── vendor/                 # Third-party dependencies (Bootstrap, jQuery)
+├── index.html              # Landing Page
+├── kd.html                 # Competency Standards
+├── materi.html             # Learning Modules
+├── latsoal.html            # Practice Exercises
+└── quiz.html               # Assessment Module
+```
 
-# Masuk ke direktori
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+*   **Web Browser**: Chrome, Firefox, or Edge (Latest recommended)
+*   **Internet Connection**: Required for video playback
+*   **Local Server**: Required if you want to use PHP/MySQL features (XAMPP/WAMP)
+
+### 1. Simple Run (Static Only)
+```bash
+# Clone the repository
+git clone https://github.com/widifirmaan/javascript-excel-pintar-media-pembelajaran.git
+
+# Navigate to directory
 cd javascript-excel-pintar-media-pembelajaran
 
-# Buka file index.html dengan browser
-# - Double-click file index.html
-# atau
-# - Klik kanan > Open With > Browser
-
-# atau gunakan Live Server (jika menggunakan VS Code)
-# Klik kanan index.html > Open with Live Server
+# Open index.html in your browser
 ```
 
-#### 2. **Online (Dengan Server)**
-Jika ingin menggunakan backend form:
+### 2. Full Setup (Including Backend)
 ```bash
-# Pastikan PHP dan MySQL terinstall
-# Setup database sesuai konfigurasi di form/global/config.php
-
-# Jalankan server lokal
-php -S localhost:8000
-
-# Akses di browser: http://localhost:8000
+# Move to your local server (htdocs/www)
+# Import the provided SQL dump to your MySQL database
+# Update database config in form/global/config.php
+# Access via http://localhost/javascript-excel-pintar-media-pembelajaran
 ```
 
 ---
 
-## 👥 Tim Pengembang
+## 👥 Authors
 
-| Posisi | Nama |
-|--------|------|
-| **Siswa Pengembang** | Donny Bimo Hendro Utomo |
-| **Pembimbing Akademik** | Drs. Purwanto, MM., M.Pd. |
-| **Ahli Media Pembelajaran** | Arwan Nur Ramadhan, M.Pd. |
-
----
-
-## 📖 Kompetensi yang Dicakup
-
-Aplikasi ini dirancang untuk mencapai kompetensi dasar:
-- **KD 3.4**: Memahami fitur dan fungsi aplikasi pengolah data
-- **KD 4.4**: Menggunakan fitur dan fungsi aplikasi pengolah data untuk mengolah data
+Developed with ❤️ by:
+*   **Donny Bimo Hendro Utomo** - Lead Developer
+*   **Drs. Purwanto, MM., M.Pd.** - Academic Advisor
+*   **Arwan Nur Ramadhan, M.Pd.** - Instructional Media Expert
 
 ---
 
-## ✨ Fitur Highlight
+## 📖 Educational Competencies
 
-✅ **Interface Responsif** - Dapat diakses di desktop, tablet, dan mobile  
-✅ **Animasi Menarik** - Smooth animation untuk pengalaman visual yang baik  
-✅ **Navigasi Intuitif** - Menu dan struktur yang mudah dipahami  
-✅ **Konten Interaktif** - Quiz dan latihan soal dengan feedback langsung  
-✅ **Video Embedded** - Tutorial video terintegrasi di dalam platform  
-✅ **Offline Ready** - Dapat dijalankan tanpa koneksi internet (kecuali video streaming)  
-✅ **SEO Friendly** - Struktur HTML yang semantik  
+This application is designed to achieve the following Indonesian national education standards:
+*   **KD 3.4**: Understanding features and functions of data processing applications.
+*   **KD 4.4**: Using features and functions of data processing applications to process data.
 
 ---
 
-## 📝 Catatan Pengembangan
+## 📜 License
 
-- Aplikasi ini awalnya dikembangkan untuk keperluan pembelajaran di sekolah
-- Berbasis web statis yang dapat dengan mudah di-deploy di berbagai hosting
-- Admin panel tersedia di `form/admin/` untuk management konten (jika diperlukan)
-- Form submission data disimpan di database MySQL
+This project is developed for educational purposes. Any distribution or commercial use requires prior authorization from the development team.
 
 ---
 
-## 📜 Lisensi
-
-Proyek ini dikembangkan untuk keperluan pendidikan. Penggunaan dan distribusi harus mendapat persetujuan dari tim pengembang.
-
----
-
-## 📧 Kontak & Support
-
-Untuk pertanyaan atau masukan mengenai aplikasi ini, silakan hubungi tim pengembang.
-
----
-
-**Dikembangkan dengan ❤️ untuk pendidikan Excel yang lebih baik**
-
+**Developed for a better Excel learning experience**
